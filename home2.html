@@ -267,7 +267,7 @@
             color: #3498db;
         }
 
-         .bg-icon-4 {
+        .bg-icon-4 {
             background-color: rgba(194, 219, 52, 0.2);
             color: #cddb34;
         }
@@ -393,7 +393,7 @@
                 color: #fff;
             }
 
-          
+
 
             .hero-title {
                 font-size: 2.5rem;
@@ -1385,8 +1385,8 @@
 
         }
 
-       
-       
+
+
 
         .btnprimary {
             background-color: #cf6b06;
@@ -1429,7 +1429,7 @@
 
         /* --- CTA Banner Styling --- */
         .cta-banner {
-       background: linear-gradient(90deg, #cf6b06 , #000000 55%);
+            background: linear-gradient(90deg, #cf6b06, #000000 55%);
             border-radius: 12px;
             padding: 2.5rem;
             position: relative;
@@ -1742,14 +1742,16 @@
         }
 
         /* Custom Form Inputs */
-        .form-control, .form-select {
+        .form-control,
+        .form-select {
             background: rgba(0, 0, 0, 0.4);
             border: 1px solid rgba(255, 255, 255, 0.15);
             color: #fff;
             border-radius: 6px;
         }
 
-        .form-control:focus, .form-select:focus {
+        .form-control:focus,
+        .form-select:focus {
             background: rgba(0, 0, 0, 0.6);
             border-color: #cf6b06;
             box-shadow: 0 0 12px #cf6b06;
@@ -1762,7 +1764,7 @@
         }
 
         .form-label {
-            color:white;
+            color: white;
             font-size: 0.85rem;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -1784,7 +1786,7 @@
             background-color: white;
             color: #cf6b06;
             transform: translateY(-2px);
-        
+
         }
 
         /* Success Message Styling */
@@ -1792,7 +1794,8 @@
             color: #cf6b06;
             text-shadow: 0 0 10px #cf6b06;
             font-weight: 800;
-            letter-spacing: 1px;}
+            letter-spacing: 1px;
+        }
     </style>
 </head>
 
@@ -1998,28 +2001,30 @@
             </div>
         </div>
     </nav>
-<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content text-light">
-                
+
                 <div class="modal-header border-0 pb-0 pt-4 px-4">
                     <h5 class="modal-title" id="contactModalLabel">TRANSMIT MESSAGE</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                
+
                 <div class="modal-body p-4">
-                    
+
                     <form id="gamingForm">
                         <div class="mb-3">
                             <label for="playerID" class="form-label">Player ID / Username</label>
-                            <input type="text" class="form-control px-3 py-2" id="playerID" placeholder="Enter your gamertag" required>
+                            <input type="text" class="form-control px-3 py-2" id="playerID"
+                                placeholder="Enter your gamertag" required>
                         </div>
-                        
+
                         <div class="mb-3">
                             <label for="discordTag" class="form-label">Discord Tag</label>
-                            <input type="text" class="form-control px-3 py-2" id="discordTag" placeholder="Username#0000" required>
+                            <input type="text" class="form-control px-3 py-2" id="discordTag"
+                                placeholder="Username#0000" required>
                         </div>
-                        
+
                         <div class="mb-3">
                             <label for="issueType" class="form-label">Query Type</label>
                             <select class="form-select px-3 py-2" id="issueType" required>
@@ -2030,12 +2035,13 @@
                                 <option value="4">General Inquiry</option>
                             </select>
                         </div>
-                        
+
                         <div class="mb-4">
                             <label for="messageBody" class="form-label">Mission Details</label>
-                            <textarea class="form-control px-3 py-2" id="messageBody" rows="4" placeholder="Describe your issue or request..." required></textarea>
+                            <textarea class="form-control px-3 py-2" id="messageBody" rows="4"
+                                placeholder="Describe your issue or request..." required></textarea>
                         </div>
-                        
+
                         <div class="d-grid mt-2">
                             <button type="submit" class="btn submit-btn py-3">SEND TRANSMISSION</button>
                         </div>
@@ -2043,8 +2049,10 @@
 
                     <div id="successMessage" class="d-none text-center py-5">
                         <h4 class="mb-3">MISSION ACCOMPLISHED</h4>
-                        <p class="text-white-50">Your transmission has been successfully sent to the server. We will contact you shortly.</p>
-                        <button type="button" class="btn btn-outline-light mt-3 px-4" data-bs-dismiss="modal">Close Terminal</button>
+                        <p class="text-white-50">Your transmission has been successfully sent to the server. We will
+                            contact you shortly.</p>
+                        <button type="button" class="btn btn-outline-light mt-3 px-4" data-bs-dismiss="modal">Close
+                            Terminal</button>
                     </div>
 
                 </div>
@@ -2059,7 +2067,9 @@
 
                     <div class="col-12 col-lg-5 mb-5 mb-lg-0 text-center text-lg-start">
                         <h2 class="hero-title">Build, Play & Evolve Your Gaming World</h2>
-                        <p class="hero-text">Create immersive gaming experiences with cutting-edge technology, real-time communication, and powerful multiplayer systems. We turn your ideas into engaging digital worlds.</p>
+                        <p class="hero-text">Create immersive gaming experiences with cutting-edge technology, real-time
+                            communication, and powerful multiplayer systems. We turn your ideas into engaging digital
+                            worlds.</p>
                         <button class="btn btn-primary-custom mb-4">Get Started Now</button>
 
                         <div class="trust-badges justify-content-center justify-content-lg-start">
@@ -2076,7 +2086,7 @@
                                 <span class="stars"></span>
                             </div>
 
-                             <div>
+                            <div>
                                 <strong>⚡ Win Faster</strong><br>
                                 <span class="stars"></span>
                             </div>
@@ -2086,8 +2096,8 @@
                     <div
                         class="col-12 col-md-8 col-lg-4 text-center position-relative mb-5 mb-lg-0 d-flex align-items-center justify-content-center">
                         <div class="image-box w-100">
-                            <img src="assests/chair.png"
-                                alt="image" class="img-fluid" style="max-width: 350px; width: 100%; height: auto;">
+                            <img src="assests/chair.png" alt="image" class="img-fluid"
+                                style="max-width: 350px; width: 100%; height: auto;">
                         </div>
                     </div>
 
@@ -2098,7 +2108,7 @@
                                 <h3>200+</h3>
                             </div>
                             <div class="stat-icon bg-icon-1">
-                               <i class="fa fa-gamepad"></i>
+                                <i class="fa fa-gamepad"></i>
                             </div>
                         </div>
 
@@ -2108,7 +2118,7 @@
                                 <h3>1M+</h3>
                             </div>
                             <div class="stat-icon bg-icon-2">
-                         <i class="fa fa-users"></i>
+                                <i class="fa fa-users"></i>
                             </div>
                         </div>
 
@@ -2118,8 +2128,8 @@
                                 <h3>50+</h3>
                             </div>
                             <div class="stat-icon bg-icon-3">
-                     
-                             <i class="fa fa-location-arrow"></i>
+
+                                <i class="fa fa-location-arrow"></i>
                             </div>
                         </div>
 
@@ -2129,7 +2139,7 @@
                                 <h3>98%</h3>
                             </div>
                             <div class="stat-icon bg-icon-4">
-                           <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
                             </div>
                         </div>
                     </div>
@@ -2150,7 +2160,9 @@
                         <h2 class="outcome-heading">Powering Next-Gen Gaming Experiences 🎮</h2>
                     </div>
                     <div class="col-lg-5 ms-auto d-flex flex-column align-items-start justify-content-center">
-                        <p class="project-header-desc">We create high-performance gaming platforms with real-time communication, smooth multiplayer systems, and immersive gameplay experiences for players worldwide.</p>
+                        <p class="project-header-desc">We create high-performance gaming platforms with real-time
+                            communication, smooth multiplayer systems, and immersive gameplay experiences for players
+                            worldwide.</p>
                         <button class="btn-outcome">Explore Games</button>
                     </div>
                 </div>
@@ -2164,7 +2176,8 @@
                                 <div class="outcome-stat-box">
                                     <div class="outcome-number">10M+</div>
                                     <div class="outcome-title">Players Online</div>
-                                    <p class="outcome-text">Join a massive global community of active gamers playing and connecting in real-time.</p>
+                                    <p class="outcome-text">Join a massive global community of active gamers playing and
+                                        connecting in real-time.</p>
                                 </div>
                             </div>
 
@@ -2172,7 +2185,8 @@
                                 <div class="outcome-stat-box">
                                     <div class="outcome-number">50+</div>
                                     <div class="outcome-title">Countries Connected</div>
-                                    <p class="outcome-text">Seamless multiplayer experience across the globe with ultra-fast servers.</p>
+                                    <p class="outcome-text">Seamless multiplayer experience across the globe with
+                                        ultra-fast servers.</p>
                                 </div>
                             </div>
 
@@ -2180,7 +2194,8 @@
                                 <div class="outcome-stat-box">
                                     <div class="outcome-number">500+</div>
                                     <div class="outcome-title">Games Developed</div>
-                                    <p class="outcome-text">From casual to competitive games, we build engaging and scalable gaming worlds.</p>
+                                    <p class="outcome-text">From casual to competitive games, we build engaging and
+                                        scalable gaming worlds.</p>
                                 </div>
                             </div>
 
@@ -2188,7 +2203,8 @@
                                 <div class="outcome-stat-box">
                                     <div class="outcome-number">99%</div>
                                     <div class="outcome-title">Server Uptime</div>
-                                    <p class="outcome-text">Enjoy lag-free gaming with optimized performance and low latency.</p>
+                                    <p class="outcome-text">Enjoy lag-free gaming with optimized performance and low
+                                        latency.</p>
                                 </div>
                             </div>
 
@@ -2201,7 +2217,7 @@
                                 <i class="bi bi-play-fill"></i>
                             </div>
                             <div class="outcome-media-label">
-                               Cyberpunk Sniper: Real-Time Multiplayer Gameplay
+                                Cyberpunk Sniper: Real-Time Multiplayer Gameplay
                             </div>
                         </div>
                     </div>
@@ -2221,10 +2237,11 @@
                     <hr>
                     <div class="col-lg-6 mb-4 mb-lg-0">
                         <h2 class="project-main-heading">Gaming Experiences <br><span class="project-heading-muted">
-                     That Players Love</span></h2>
+                                That Players Love</span></h2>
                     </div>
                     <div class="col-lg-5 ms-auto">
-                        <p class="project-header-desc">See how Easy Talk builds immersive gaming platforms, boosting engagement, retention, and revenue.</p>
+                        <p class="project-header-desc">See how Easy Talk builds immersive gaming platforms, boosting
+                            engagement, retention, and revenue.</p>
                         <button class="btn-project-primary">Book Game Consultation</button>
                     </div>
                 </div>
@@ -2233,7 +2250,7 @@
                     <li class="flex-grow-1">
                         <button class="project-tab-btn active" data-target="content-tab1">
                             <div class="tab-title">Easysolution E-Sports Arena</div>
-                            <div class="tab-subtitle">Intelligent  Processing</div>
+                            <div class="tab-subtitle">Intelligent Processing</div>
                         </button>
                     </li>
                     <li class="flex-grow-1">
@@ -2259,11 +2276,12 @@
                                     <div class="mb-3 d-flex align-items-center gap-2">
                                         <i class="bi bi-buildings-fill " style="color: #cf6b06;"></i>
                                         <span style="color: black; font-weight: bold; font-size: 1.25rem;">
-                                        Easysolution E-Sports Arena</span>
+                                            Easysolution E-Sports Arena</span>
                                     </div>
                                     <h3 style="color: black;" class="fw-bold mb-3 fs-2">Ultimate Competitive Gaming Hub
                                     </h3>
-                                    <p class="text-muted">Compete in high-stakes tournaments, track your real-time stats, and climb the global leaderboards alongside pro players.</p>
+                                    <p class="text-muted">Compete in high-stakes tournaments, track your real-time
+                                        stats, and climb the global leaderboards alongside pro players.</p>
                                     <ul class="project-feature-list">
                                         <li>Instant Matchmaking</li>
                                         <li>Anti-Cheat Integration</li>
@@ -2287,8 +2305,7 @@
                                 </div>
                                 <div class="col-lg-6 p-3 p-lg-4">
                                     <div class="project-img-wrapper">
-                                        <img src="assests/unc.jpg"
-                                            alt="Dashboard" class="project-laptop-img rounded-3">
+                                        <img src="assests/unc.jpg" alt="Dashboard" class="project-laptop-img rounded-3">
                                     </div>
                                 </div>
                             </div>
@@ -2300,13 +2317,15 @@
                             <div class="row g-0">
                                 <div class="col-lg-6 p-4 p-lg-5 d-flex flex-column justify-content-center">
                                     <div class="mb-3 d-flex align-items-center gap-2">
-                                   
+
                                         <i class="fa fa-microphone" style="color: #cf6b06;"></i>
                                         <span style="color: black;" class="fw-bold fs-6">Easysolution3D</span>
                                     </div>
                                     <h3 style="color: black;" class="fw-bold mb-3 fs-2">Pro-Gaming Communication Hub
                                     </h3>
-                                    <p class="text-muted">We engineered a high-performance platform for creators to launch limited-edition 3D figures and game assets. Featuring interactive WebGL viewers and seamless trading.</p>
+                                    <p class="text-muted">We engineered a high-performance platform for creators to
+                                        launch limited-edition 3D figures and game assets. Featuring interactive WebGL
+                                        viewers and seamless trading.</p>
                                     <ul class="project-feature-list">
                                         <li>Interactive 3D Previews</li>
                                         <li>Seamless Asset Trading</li>
@@ -2330,8 +2349,8 @@
                                 </div>
                                 <div class="col-lg-6 p-3 p-lg-4">
                                     <div class="project-img-wrapper bg-gradient-2">
-                                        <img src="assests/project.png"
-                                            alt="Dashboard" class="project-laptop-img rounded-3">
+                                        <img src="assests/project.png" alt="Dashboard"
+                                            class="project-laptop-img rounded-3">
                                     </div>
                                 </div>
                             </div>
@@ -2390,7 +2409,8 @@
 
                 <div class="row mb-5 pb-lg-3 align-items-center">
                     <div class="col-12">
-                        <div class="outcome-label"><i style="color: #cf6b06;" class="fa fa-dot-circle-o"></i>The Pipeline
+                        <div class="outcome-label"><i style="color: #cf6b06;" class="fa fa-dot-circle-o"></i>The
+                            Pipeline
                         </div>
                     </div>
                     <hr>
@@ -2401,7 +2421,8 @@
                         </h2>
                     </div>
                     <div class="col-lg-5 ms-auto d-flex flex-column align-items-start">
-                        <p class="project-header-desc">We follow a high-octane, transparent workflow that accelerates asset delivery, optimizes frame rates, and ensures premium WebGL experiences.y.</p>
+                        <p class="project-header-desc">We follow a high-octane, transparent workflow that accelerates
+                            asset delivery, optimizes frame rates, and ensures premium WebGL experiences.y.</p>
                         <button class="btn-process-primary">Deploy Your Assets</button>
                     </div>
                 </div>
@@ -2414,47 +2435,52 @@
                                 <i class="fa fa-lightbulb-o"></i>
                             </div>
                             <h4 class="process-card-title">Concept & World-Building</h4>
-                            <p class="process-card-text">Defining the core aesthetic, poly-count limits, and functional mechanics for your 3D assets and platform features.</p>
+                            <p class="process-card-text">Defining the core aesthetic, poly-count limits, and functional
+                                mechanics for your 3D assets and platform features.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="process-card">
                             <div class="process-icon-box">
-                               <i class="fa fa-cube"></i>
+                                <i class="fa fa-cube"></i>
                             </div>
                             <h4 class="process-card-title">3D Sculpting & Interface Design</h4>
-                            <p class="process-card-text">Crafting high-fidelity models and mapping out immersive, high-contrast user interfaces for seamless navigation.</p>
+                            <p class="process-card-text">Crafting high-fidelity models and mapping out immersive,
+                                high-contrast user interfaces for seamless navigation.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="process-card">
                             <div class="process-icon-box">
-                              <i class="fa fa-gamepad"></i>
+                                <i class="fa fa-gamepad"></i>
                             </div>
                             <h4 class="process-card-title">Engine & WebGL Integration</h4>
-                            <p class="process-card-text">Bringing static designs to life with interactive 360-viewers, optimized front-end routing, and robust backend logic.</p>
+                            <p class="process-card-text">Bringing static designs to life with interactive 360-viewers,
+                                optimized front-end routing, and robust backend logic.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="process-card">
                             <div class="process-icon-box">
-                             <i class="fa fa-bolt"></i>
+                                <i class="fa fa-bolt"></i>
                             </div>
                             <h4 class="process-card-title">Playtesting & Optimization</h4>
-                            <p class="process-card-text">Rigorous frame-rate profiling, cross-device rendering tests, and bug squashing to ensure zero lag and peak performance.</p>
+                            <p class="process-card-text">Rigorous frame-rate profiling, cross-device rendering tests,
+                                and bug squashing to ensure zero lag and peak performance.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="process-card">
                             <div class="process-icon-box">
-                            <i class="fa fa-rocket"></i>
+                                <i class="fa fa-rocket"></i>
                             </div>
                             <h4 class="process-card-title">Live Ops & Scaling</h4>
-                            <p class="process-card-text">Continuous server monitoring, seamless patch deployments, and feature scaling as your collector and player base expands.</p>
+                            <p class="process-card-text">Continuous server monitoring, seamless patch deployments, and
+                                feature scaling as your collector and player base expands.</p>
                         </div>
                     </div>
 
@@ -2468,18 +2494,21 @@
 
                 <div class="row align-items-center">
                     <div class="col-12">
-                        <div class="outcome-label"><i style="color: #cf6b06;" class="fa fa-dot-circle-o"></i>Easysolution advantage
+                        <div class="outcome-label"><i style="color: #cf6b06;"
+                                class="fa fa-dot-circle-o"></i>Easysolution advantage
                         </div>
                     </div>
                     <hr>
                     <div class="col-lg-6">
                         <h2 class="project-main-heading">
-                        The Easy Solution  <br>
+                            The Easy Solution <br>
                             <span class="why-chosen-heading-muted"> Advantage</span>
                         </h2>
                     </div>
                     <div class="col-lg-5 ms-auto">
-                        <p class="project-header-desc">We eliminate the friction of 3D integration. From high-poly modeling to seamless WebGL rendering, we provide the performance and precision that top gaming platforms demand.</p>
+                        <p class="project-header-desc">We eliminate the friction of 3D integration. From high-poly
+                            modeling to seamless WebGL rendering, we provide the performance and precision that top
+                            gaming platforms demand.</p>
                     </div>
                 </div>
 
@@ -2489,9 +2518,10 @@
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="why-chosen-card">
                                 <i class="fa fa-tags why-chosen-icon"></i>
-                            
+
                                 <h4 class="why-chosen-card-title">Transparent Tiers</h4>
-                                <p class="why-chosen-card-text">Straightforward pricing for asset creation and WebGL integration, with no hidden rendering fees or surprise licensing costs.</p>
+                                <p class="why-chosen-card-text">Straightforward pricing for asset creation and WebGL
+                                    integration, with no hidden rendering fees or surprise licensing costs.</p>
                             </div>
                         </div>
 
@@ -2499,25 +2529,30 @@
                             <div class="why-chosen-card">
                                 <i class="bi bi-play why-chosen-icon" style="font-size: 2.2rem; margin-left: -5px;"></i>
                                 <h4 class="why-chosen-card-title">Rapid Asset Delivery</h4>
-                                <p class="why-chosen-card-text">We accelerate the modeling and integration process, ensuring your interactive assets are live and optimized ahead of launch schedules.</p>
+                                <p class="why-chosen-card-text">We accelerate the modeling and integration process,
+                                    ensuring your interactive assets are live and optimized ahead of launch schedules.
+                                </p>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="why-chosen-card">
                                 <i class="fa fa-rotate-right why-chosen-icon"></i>
-                                
+
                                 <h4 class="why-chosen-card-title">Iterative Sculpting</h4>
-                                <p class="why-chosen-card-text">Perfect your vision. We handle model revisions and texture adjustments one by one until the final asset meets your exact specifications.</p>
+                                <p class="why-chosen-card-text">Perfect your vision. We handle model revisions and
+                                    texture adjustments one by one until the final asset meets your exact
+                                    specifications.</p>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="why-chosen-card">
                                 <i class="fa fa-desktop why-chosen-icon"></i>
-                                
+
                                 <h4 class="why-chosen-card-title">Unified Creator Hub</h4>
-                                <p class="why-chosen-card-text">Manage wireframes, track modeling progress, and review WebGL builds inside a clean, organized, dark-themed dashboard.</p>
+                                <p class="why-chosen-card-text">Manage wireframes, track modeling progress, and review
+                                    WebGL builds inside a clean, organized, dark-themed dashboard.</p>
                             </div>
                         </div>
 
@@ -2525,16 +2560,19 @@
                             <div class="why-chosen-card">
                                 <i class="bi bi-patch-check why-chosen-icon"></i>
                                 <h4 class="why-chosen-card-title">High-Fidelity Assets</h4>
-                                <p class="why-chosen-card-text">Precision engineering for every polygon. We deliver optimized, game-ready models that look stunning without compromising frame rates.</p>
+                                <p class="why-chosen-card-text">Precision engineering for every polygon. We deliver
+                                    optimized, game-ready models that look stunning without compromising frame rates.
+                                </p>
                             </div>
                         </div>
 
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="why-chosen-card">
                                 <i class="fa fa-cogs why-chosen-icon"></i>
-                            
+
                                 <h4 class="why-chosen-card-title">Engine Integration</h4>
-                                <p class="why-chosen-card-text">We tackle complex WebGL and React routing challenges, ensuring your 3D assets render smoothly across all modern browsers.</p>
+                                <p class="why-chosen-card-text">We tackle complex WebGL and React routing challenges,
+                                    ensuring your 3D assets render smoothly across all modern browsers.</p>
                             </div>
                         </div>
 
@@ -2565,7 +2603,9 @@
                         </h2>
                     </div>
                     <div class="col-lg-5 ms-auto">
-                        <p class="project-header-desc">Trusted by indie developers and global gaming platforms who rely on Easy Solution to deliver high-fidelity 3D assets and seamless, lag-free WebGL experiences.</p>
+                        <p class="project-header-desc">Trusted by indie developers and global gaming platforms who rely
+                            on Easy Solution to deliver high-fidelity 3D assets and seamless, lag-free WebGL
+                            experiences.</p>
                         <button class="btn-testimonial-primary">View All testimonials</button>
                     </div>
                 </div>
@@ -2577,7 +2617,9 @@
                             <div class="testimonial-card">
                                 <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
                                     alt="Steve" class="testimonial-avatar">
-                                <p class="testimonial-text">Easy Solution completely transformed our browser-based MMORPG. Their WebGL integration boosted our frame rates by over 40% and completely eliminated our rendering bottlenecks within weeks.
+                                <p class="testimonial-text">Easy Solution completely transformed our browser-based
+                                    MMORPG. Their WebGL integration boosted our frame rates by over 40% and completely
+                                    eliminated our rendering bottlenecks within weeks.
                                 </p>
                                 <div>
                                     <div class="testimonial-author">Steve Graham</div>
@@ -2590,7 +2632,9 @@
                             <div class="testimonial-card">
                                 <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
                                     alt="Chris" class="testimonial-avatar">
-                                <p class="testimonial-text">The high-poly character models they forged for our platform are stunning. They delivered top-tier visual fidelity while keeping the 3D assets perfectly lightweight and optimized for our custom engine</p>
+                                <p class="testimonial-text">The high-poly character models they forged for our platform
+                                    are stunning. They delivered top-tier visual fidelity while keeping the 3D assets
+                                    perfectly lightweight and optimized for our custom engine</p>
                                 <div>
                                     <div class="testimonial-author">Chris Green</div>
                                     <div class="testimonial-role">Art Director, PolyForge Studios</div>
@@ -2602,7 +2646,9 @@
                             <div class="testimonial-card">
                                 <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
                                     alt="Abhinav" class="testimonial-avatar">
-                                <p class="testimonial-text">Their asset pipeline is the most efficient we've seen. We needed 50+ custom 3D collectibles for our marketplace launch, and Easy Solution delivered the entire batch flawlessly a week ahead of schedule.</p>
+                                <p class="testimonial-text">Their asset pipeline is the most efficient we've seen. We
+                                    needed 50+ custom 3D collectibles for our marketplace launch, and Easy Solution
+                                    delivered the entire batch flawlessly a week ahead of schedule.</p>
                                 <div>
                                     <div class="testimonial-author">Abhinav Purohit</div>
                                     <div class="testimonial-role">Producer, LootDrop Interactive</div>
@@ -2614,7 +2660,9 @@
                             <div class="testimonial-card">
                                 <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
                                     alt="Sarah" class="testimonial-avatar">
-                                <p class="testimonial-text">True to their name, Easy Solution took the headache out of our 3D environment builds. Their dedicated creator portal made tracking revisions and implementing the final assets incredibly frictionless.
+                                <p class="testimonial-text">True to their name, Easy Solution took the headache out of
+                                    our 3D environment builds. Their dedicated creator portal made tracking revisions
+                                    and implementing the final assets incredibly frictionless.
                                 </p>
                                 <div>
                                     <div class="testimonial-author">Sarah Jenkins</div>
@@ -2627,7 +2675,9 @@
                             <div class="testimonial-card">
                                 <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
                                     alt="Michael" class="testimonial-avatar">
-                                <p class="testimonial-text">For our competitive platform, every millisecond matters. Their deep optimization of our interactive tournament dashboards resulted in zero lag and seamless real-time data flow during peak server traffic.</p>
+                                <p class="testimonial-text">For our competitive platform, every millisecond matters.
+                                    Their deep optimization of our interactive tournament dashboards resulted in zero
+                                    lag and seamless real-time data flow during peak server traffic.</p>
                                 <div>
                                     <div class="testimonial-author">Michael Chen</div>
                                     <div class="testimonial-role">CTO, StrikeForce Esports</div>
@@ -2639,7 +2689,9 @@
                             <div class="testimonial-card">
                                 <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
                                     alt="Emma" class="testimonial-avatar">
-                                <p class="testimonial-text">As an indie team, we didn't have the internal bandwidth for complex 3D rigging. Easy Solution stepped in as an extension of our studio, scaling our asset library much faster than we could have done alone.</p>
+                                <p class="testimonial-text">As an indie team, we didn't have the internal bandwidth for
+                                    complex 3D rigging. Easy Solution stepped in as an extension of our studio, scaling
+                                    our asset library much faster than we could have done alone.</p>
                                 <div>
                                     <div class="testimonial-author">Emma Watson</div>
                                     <div class="testimonial-role">Lead Game Designer, PixelPunch</div>
@@ -2651,7 +2703,9 @@
                             <div class="testimonial-card">
                                 <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
                                     alt="David" class="testimonial-avatar">
-                                <p class="testimonial-text">Launching our 3D digital collectible series was a massive undertaking. The frictionless React integration they provided for our 360-degree interactive viewers drove user engagement up by 60% on launch day.</p>
+                                <p class="testimonial-text">Launching our 3D digital collectible series was a massive
+                                    undertaking. The frictionless React integration they provided for our 360-degree
+                                    interactive viewers drove user engagement up by 60% on launch day.</p>
                                 <div>
                                     <div class="testimonial-author">David O'Connor</div>
                                     <div class="testimonial-role">Product Manager, MetaCollect</div>
@@ -2684,19 +2738,21 @@
             <div class="container px-lg-4">
                 <div class="row align-items-center mb-5">
                     <div class="col-12">
-                        <div class="outcome-label"><i style="color: #cf6b06;" class="fa fa-dot-circle-o"></i>Blog Post Cards
+                        <div class="outcome-label"><i style="color: #cf6b06;" class="fa fa-dot-circle-o"></i>Blog Post
+                            Cards
                         </div>
                     </div>
                     <hr>
                     <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
                         <h2 class="project-main-heading">
-                          Tactical reads to accelerate <br>
+                            Tactical reads to accelerate <br>
                             <span class="text-muted-custom"> your build.</span>
                         </h2>
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <p class="project-header-desc">
-                            Dive into advanced WebGL techniques, 3D modeling optimization strategies, and industry intel designed to level up your gaming platform.
+                            Dive into advanced WebGL techniques, 3D modeling optimization strategies, and industry intel
+                            designed to level up your gaming platform.
                         </p>
                         <div class="">
                             <button class="btn-why-chosen">Access All Logs</button>
@@ -2708,36 +2764,41 @@
 
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="card article-card h-100">
-                            <img src="assests/best.jpg"
-                                class="card-img-top" alt="Salesforce Dashboard">
+                            <img src="assests/best.jpg" class="card-img-top" alt="Salesforce Dashboard">
                             <div class="card-body p-4">
                                 <div class="meta-text">Alex Mercer • March 12, 2026</div>
                                 <h5 class="card-title">Mastering Poly-Counts: Optimizing 3D Assets for WebGL</h5>
-                                <p class="card-text mb-0">Learn how to drastically reduce render times without sacrificing high-fidelity details. A deep dive into creating lightweight, game-ready models for the browser.</p>
+                                <p class="card-text mb-0">Learn how to drastically reduce render times without
+                                    sacrificing high-fidelity details. A deep dive into creating lightweight, game-ready
+                                    models for the browser.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="card article-card h-100">
-                            <img src="assests/title-senua.jpg"
-                                class="card-img-top" alt="AI Tools">
+                            <img src="assests/title-senua.jpg" class="card-img-top" alt="AI Tools">
                             <div class="card-body p-4">
                                 <div class="meta-text">Jordan Lee • February 28, 2026</div>
-                                <h5 class="card-title">The Future of Digital Collectibles: Building Interactive 3D Hubs</h5>
-                                <p class="card-text mb-0">Discover why top creators are moving beyond static images and leveraging React-driven 3D viewers to build immersive, high-retention experiences.</p>
+                                <h5 class="card-title">The Future of Digital Collectibles: Building Interactive 3D Hubs
+                                </h5>
+                                <p class="card-text mb-0">Discover why top creators are moving beyond static images and
+                                    leveraging React-driven 3D viewers to build immersive, high-retention experiences.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="card article-card h-100">
-                            <img src="assests/dazzling.avif"
-                                class="card-img-top" alt="Energy ERP">
+                            <img src="assests/dazzling.avif" class="card-img-top" alt="Energy ERP">
                             <div class="card-body p-4">
                                 <div class="meta-text">Easy Solution Team • February 15, 2026</div>
-                                <h5 class="card-title">Inside the Easy Solution Pipeline: From Concept to Deployment </h5>
-                                <p class="card-text mb-0">A step-by-step breakdown of how we streamline complex game asset integration. See how our transparent workflow eliminates latency and accelerates launch times.</p>
+                                <h5 class="card-title">Inside the Easy Solution Pipeline: From Concept to Deployment
+                                </h5>
+                                <p class="card-text mb-0">A step-by-step breakdown of how we streamline complex game
+                                    asset integration. See how our transparent workflow eliminates latency and
+                                    accelerates launch times.</p>
                             </div>
                         </div>
                     </div>
@@ -2760,18 +2821,22 @@
 
                         <h1 class="main-heading">
                             <span class="fw-bold">Initialize Your Next Build.</span>
-                       
+
                         </h1>
 
                         <p class="project-header-desc">
-                          Connect with our technical artists and engineers. Get expert guidance on WebGL integration, 3D asset pipelines, and performance optimization so you can launch your platform with zero latency.
+                            Connect with our technical artists and engineers. Get expert guidance on WebGL integration,
+                            3D asset pipelines, and performance optimization so you can launch your platform with zero
+                            latency.
                         </p>
 
                         <h4 class="fw-bold mb-3">What happens next?</h4>
                         <ul class="check-list">
                             <li><i class="bi bi-check2"></i> We analyze your technical specs and poly-count limits.</li>
-                            <li><i class="bi bi-check2"></i>A direct strategy call with our lead 3D and React developers.</li>
-                            <li><i class="bi bi-check2"></i> A clear timeline, integration plan, and project estimate.</li>
+                            <li><i class="bi bi-check2"></i>A direct strategy call with our lead 3D and React
+                                developers.</li>
+                            <li><i class="bi bi-check2"></i> A clear timeline, integration plan, and project estimate.
+                            </li>
                         </ul>
 
                         <div class="trust-badges mt-5">
@@ -2797,10 +2862,8 @@
             border-radius: 0;
             padding: 0.8rem 0;
             box-shadow: none !important;
-            /* Removes Bootstrap blue glow */
             font-size: 0.95rem;
-            background-color: transparent;" class="form-control custom" placeholder="Full Name"
-                                        required>
+            background-color: transparent;" class="form-control custom" placeholder="Full Name" required>
                                 </div>
 
                                 <div class="mb-3">
@@ -2809,11 +2872,9 @@
             color: black;
             border-radius: 0;
             padding: 0.8rem 0;
-            box-shadow: none !important;
-            /* Removes Bootstrap blue glow */
+            box-shadow: none !important;  
             font-size: 0.95rem;
-            background-color: transparent;" class="form-control custom" placeholder="Work Email"
-                                        required>
+            background-color: transparent;" class="form-control custom" placeholder="Work Email" required>
                                 </div>
 
                                 <div class="mb-3">
@@ -2823,7 +2884,6 @@
             border-radius: 0;
             padding: 0.8rem 0;
             box-shadow: none !important;
-            /* Removes Bootstrap blue glow */
             font-size: 0.95rem;
             background-color: transparent;" class="form-control custom" value="+49" required>
                                 </div>
@@ -2835,7 +2895,6 @@
             border-radius: 0;
             padding: 0.8rem 0;
             box-shadow: none !important;
-            /* Removes Bootstrap blue glow */
             font-size: 0.95rem;
             background-color: transparent;" class="form-select  custom" required>
                                         <option selected>Under $25,000</option>
@@ -2852,7 +2911,6 @@
             border-radius: 0;
             padding: 0.8rem 0;
             box-shadow: none !important;
-            /* Removes Bootstrap blue glow */
             font-size: 0.95rem;
             background-color: transparent;" class="form-control custom"
                                         placeholder="Please share your detailed requirements" required></textarea>
@@ -2865,13 +2923,13 @@
             border-radius: 0;
             padding: 0.8rem 0;
             box-shadow: none !important;
-            /* Removes Bootstrap blue glow */
             font-size: 0.95rem;
             background-color: transparent;" type="text" class="form-control custom" placeholder="What is 10 + 2?"
                                         required>
                                 </div>
 
-                                <button type="submit" class="btn btnprimary px-4 py-2 rounded-3">Initialize Project</button>
+                                <button type="submit" class="btn btnprimary px-4 py-2 rounded-3">Initialize
+                                    Project</button>
                             </form>
                         </div>
                     </div>
@@ -2907,8 +2965,9 @@
                     <div class="text-md-end position-relative z-1">
                         <h3 class="fw-bold mb-2">Ready to Deploy?</h3>
                         <p class="mb-3" style="color: #ffff; font-size: 0.95rem; font-weight: 500;">
-                           Let's discuss how Easy Solution can forge your  next-gen 3D assets,<br class="d-none d-md-block">  optimize your WebGL performance, and accelerate your launch.
-    
+                            Let's discuss how Easy Solution can forge your next-gen 3D assets,<br
+                                class="d-none d-md-block"> optimize your WebGL performance, and accelerate your launch.
+
                         </p>
                         <a href="mailto:sales@sdlccorp.com" class="btn-sales">
                             sales@sdlccorp.com <i class="bi bi-arrow-right fw-bold"></i>
@@ -2987,7 +3046,7 @@
                             <li><a href="#">Immersive UI/UX Design</a></li>
                             <li><a href="#">Performance Optimization</a></li>
                             <li><a href="#">Interactive Collectibles (Web3)</a></li>
-                          
+
                         </ul>
                     </div>
 
@@ -3001,7 +3060,7 @@
                             <li><a href="#">Interactive EdTech</a></li>
                             <li><a href="#">Virtual Retail & Showrooms</a></li>
                             <li><a href="#">Gamified Brand Campaigns</a></li>
-                           
+
                         </ul>
                     </div>
 
@@ -3042,7 +3101,7 @@
                             <span class="footer-divider-line d-none d-md-inline mx-3">|</span>
 
                             <div class="footer-copyright-text">
-                                &copy;  2026 Easy Solution. All Rights Reserved.
+                                &copy; 2026 Easy Solution. All Rights Reserved.
                             </div>
 
                         </div>
@@ -3199,7 +3258,7 @@
         });
     </script>
 
-     <script>
+    <script>
         document.addEventListener('DOMContentLoaded', function () {
             const form = document.getElementById('gamingForm');
             const successMessage = document.getElementById('successMessage');
@@ -3209,7 +3268,7 @@
             form.addEventListener('submit', function (event) {
                 // The browser will only reach this point if all required fields are filled
                 // This prevents the page from refreshing after a successful submit
-                event.preventDefault(); 
+                event.preventDefault();
 
                 // Hide form and show success message
                 form.classList.add('d-none');
